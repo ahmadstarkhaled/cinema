@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/hero page/7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header{
+    color:rgb(184, 179, 179);
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#iconbar{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+#iconbar:hover{
+    color: teal;
+}
+.logo{
+margin-left: 60px;
+margin-top: 50px;
+
+}
+.logo img{
+    height: 7vh;
+}
+.logo h3{
+    color:rgb(18, 241, 241);
+    font-size: 25px;
+    margin-top: -35px;
+
+    margin-left: 50px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(227, 238, 227);
+}
+.nav ul li a:hover{
+    color: teal;
+    font-weight: bolder;
+}
+.user{
+    cursor:pointer;
+    color:teal;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.user6{
+      
+    cursor:pointer;
+    color:teal;
+    margin-top: -70px;
+    margin-left: 1320px;
+}
+.user6 a{
+    
+    padding: 10px 30px;
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.user6 a:hover{
+    background-color: black;
+    color: teal;
+}
+.user5{
+    
+    cursor:pointer;
+    color:teal;
+    margin-top: -70px;
+    margin-left: 1120px;
+    
+    
+}
+.user5 a{
+    padding: 10px 30px;
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.user a{
+    padding: 10px 30px;
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.user5 a:hover{
+    background-color: black;
+    color: teal;
+}
+.user a:hover{
+    background-color: black;
+    color: teal;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.user h4{
+    border-radius: 40px;
+    background: teal;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.user i{
+    padding: 0px 14px;
+}
+.user h4:hover{
+    color:teal;
+    background: black;
+}
+
+
+.heropage{
+    position: absolute;
+    color:white;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.inside-heropage{
+    line-height:2;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+    font-size: 17px;
+}
+span{
+    color: teal;
+    font-weight: bold;
+
+}
+
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    background-color: teal;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn1 a:hover{
+    background: black;
+    color: teal;
+}
+
+.btn1 i{
+    color:black;
+    padding: 0px 10px;
+}
+.btn1 i:hover{
+    color: white;
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height:320px;
+    float: right;
+    border-radius: 10px;
+}
+
+
+.footer{
+    position: absolute;
+    margin-top: 600px;
+    height: 20vh;
+    color: white;
+    background:#141414;
+    width: 100%;
+}
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:rgb(18, 241, 241);
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: rgb(18, 241, 241);
+}
+.scroll{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: teal;
+    border-radius: 50px;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+}
+.scroll i{
+    margin-top: 15PX;
+    color: black;
+}
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+}
+.hamburger:focus{
+    outline: none;
+}
+
+@media(max-width:360px)
+{
+    .nav ul{
+        display: none;
+    }
+    .hamburger {
+        display: block; 
+    }
+
+
+}
+.bodylogin{
+    text-align: center;
+    background-color: teal;
+    position: absolute;
+    color:black;
+   margin-top: 100px;
+   margin-left: 600px;
+    width: 260px;
+    height: 200px;
+}
+
+
+.signup-box {
+  margin-top: 100px;
+  margin-left: 600px;
+  width: 360px;
+  height: 560px;
+  background-color: dimgrey;
+  border-radius: 3px;
+}
+
+.login-box {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 360px;
+  height: 280px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+.addd{  
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 360px;
+  height: 460px;
+  background-color: white;
+  border-radius: 3px; 
+}
+.movess{
+    background-color: white;
+    margin-top: 100px;
+}
+.jumbotron{
+  position: sticky;
+  margin-top: 7%;
+
+}
+.jumbotron h1{
+  color: black;
+  font-weight: bold;
+
+}
